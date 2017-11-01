@@ -1,4 +1,5 @@
 function takeANumber(katzDeliLine,name) {
+<<<<<<< HEAD
   katzDeliLine.push(name);
   var position = katzDeliLine.length;
   return "Welcome, " + name + ". You are number " + position + " in line.";
@@ -22,4 +23,9 @@ function currentLine(katzDeliLine) {
     }
     return "The line is currently:" + numberName
   }
+=======
+  var position = katzDeliLine + 1
+  var line = "Welcome, " + name + ". You are number " + position + " in line."
+  return line
+>>>>>>> f40777ce8a83de6af0ed1adacfae10da679f1b22
 }
